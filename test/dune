@@ -1,0 +1,7 @@
+(executable
+ (name test)
+ (libraries typath))
+
+(rule
+ (alias runtest)
+ (action (run ./test.exe)))
